@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11360d;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 180%;
+    margin: auto;
+    width: 50%;
+  }
+  
+  hr {
+    border: white solid 2px;
+    border-radius: 2px;
+    margin: auto;
+    width: 25%;
+  }
+  
+  input {
+    background-color: #11360d;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: white solid 2px;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom: #6faee8 solid 4px;
+    border-radius: 2px;
+    outline: none;
+  }
+  
+  button {
+    font-family: 'Montserrat', sans-serif;
+    margin: 2%;
+    border: #6faee8 solid 2px;
+    border-radius: 2px;
+    background-color: #6faee8;
+    font-size: 75%;
+  }
+  
+  button:hover {
+    background-color: #4c7ead;
+  }
+  
+  main {
+    font-size: 125%;
+    line-height: 200%;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .opening {
+    font-size: 175%;
+    text-align: center;
+  }
+  
+  code {
+    background-color: #1a661a;
+    font-size: 125%;
+    margin: 2%;
+  }
+  
+  .classic {
+    margin-left: 4.75%;
+    margin-right: 4.75%;
+  }
+  
+  .bigButton {
+    width: 27%;
+    font-size: 125%
+  }
+  
+  button.unlim {
+    border: #ab3518 solid 2px;
+    border-radius: 2px;
+    background-color: #ab3518;
+  }
+  
+  button.unlim:hover {
+    background-color: #801c03;
+  }
+  
+  #gameText {
+    margin-left: 10%;
+  }
+  
+  .quit {
+    background-color: #191a19;
+    color: white;
+    border: solid black 2px;
+    border-radius: 2px;
+  }
+  
+  .quit:hover {
+    background-color: #000;
+  }
+  
+  input.unlim:focus {
+    border-bottom: #ab3518 solid 2px;
+    border-radius: 2px;
+    outline: none;
+  }
+  
+  .left {
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+    border: #6faee8 solid 4px;
+    border-radius: 4px;
+  }
+  
+  .right {
+    float: right;
+    width: 15%;
+    height: 15%;
+    margin-right: 5%;
+    border: #6faee8 solid 4px;
+    border-radius: 4px;
+  }
+  
+  .borderless {
+    border: transparent;
+  }
+  
+  button.mc {
+    border: #1a661a solid 2px;
+    border-radius: 2px;
+    background-color: #1a661a;
+  }
+  
+  button.mc:hover {
+    background-color: #184d18;
+  }
+  
+  #gameText button.mc {
+    color: white;
+    margin-left: 12%;
+  }
+  
+  label {
+    display: block;
+    margin-left: 25%;
+  }
+  
+  label:hover {
+    background-color: #2e852e;
+  }
+  
+  .tooltip {
+    background-color: black;
+    color: white;
+    font-size: 50%;
+    padding: 1%;
+    width: 5%;
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+  }
+  
+  button:hover .tooltip {
+    visibility: visible;
+  }
+  
+  a {
+    color: #6faee8;
+  }
+  
+  .good {
+    color: #27a047;
+  }
+  
+  .bad {
+    color: #c02d09;
+  }
